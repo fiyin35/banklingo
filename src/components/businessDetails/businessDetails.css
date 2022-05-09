@@ -8,8 +8,7 @@
 .businessDetails {
     max-width: 625px; 
     width: 100%;
-    max-height: 500px;
-    max-height: 100%;
+    height: 100%;
     background: #FFFFFF;
     border: 1px solid #EAECF0;
     border-radius: 8px;
@@ -21,6 +20,7 @@
 .gateway__container {
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 .wallet {
@@ -67,6 +67,7 @@
     font-family: var(--font-base);
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 10px;
     text-align: center;
     line-height: 24px;
     color: #FFFFFF;
@@ -78,10 +79,10 @@
     flex-direction: column;
     max-width: 425px;
     width: 100%;
-    height: 427px;
+    height: 100%;
+    max-height: 427px;
     background: #FFFFFF;
     border-radius: 16px;
-    margin-right: 79px;
     margin-top: 32px;
 }
 
@@ -93,7 +94,7 @@
     line-height: 28px;
     text-transform: capitalize;
     color: #101828;
-    margin-top: 24px;
+    margin-top: 20px;
     margin-left: 24px;
 }
 
@@ -122,17 +123,19 @@
     color: #667085;
 }
 
-.horizontal{
+.rule{
     border: 0.6px solid #D0D5DD;
-    width: 100%;
-    margin-left: 20px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
 }
 
 .horizonttal {
     border: 0.6px solid #D0D5DD;
-    width: 100%;
-    margin-left: 20px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
 }
 
@@ -167,6 +170,7 @@
     font-size: 14px;
     line-height: 24px;
     padding-top: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 55px;
@@ -180,7 +184,7 @@
     line-height: 24px;
     color: #77B94E;
     margin-left: 24px;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .business-details {
@@ -190,15 +194,14 @@
     line-height: 24px;
     color: #77B94E;
     margin-left: 24px;
-    margin-top: 32px;
-    margin-bottom: 21px;
+    /* margin-top: 16px; */
+    /* margin-bottom: 16px; */
 }
 
 @media screen and (min-width: 900px) {
     .businessDetails {
         max-width: 500px; 
         width: 100%;
-        /* max-height: 400px; */
         height: 100%;
     }
 
@@ -214,18 +217,6 @@
         width: 100%;
         max-height: 427px;
         height: 100%;
-        background: #FFFFFF;
-        border-radius: 16px;
-        margin-right: 79px;
-        margin-top: 32px;
     }
 
-    .horizontal{
-        width: 100%;
-    }
-    
-    .horizonttal {
-        border: 0.6px solid #D0D5DD;
-        width: 100%;
-    }
 }

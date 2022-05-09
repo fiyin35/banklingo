@@ -22,7 +22,7 @@ const businessDetails = () => {
                 <p>madegbuyi@gmail.com</p>
               </div>
 
-              <div className="horizonttal"/>
+              <div className="tal"/>
 
               <div className="gateway-key">
                 <p>Phone number</p>
@@ -91,31 +91,31 @@ const businessDetails = () => {
                 <p>Nil</p>
               </div>
 
-              <div className="horizontal"/>
+              <div className="rule"/>
 
               <div className="gateway-key">
                 <p>Client ID</p>
                 <p>Nil</p>
               </div>
 
-              <div className="horizontal"/>
+              <div className="rule"/>
 
               <div className="gateway-key">
                 <p>ClienT Secret</p>
                 <p>Nil</p>
               </div>
 
-              <div className="horizontal"/>
+              <div className="rule"/>
 
               <div className="gateway-key">
                 <p>Nonce</p>
                 <p>Nil</p>
               </div>
 
-              <div className="horizontal"/>
+              <div className="rule"/>
 
 
-              <div className="update-gateway"> UpdaTe GaTeway seTTings</div>
+              <div className="update-gateway"> Update Gateway Settings</div>
         </div>
 
         <p className="setexchange">SeT Exchange RaTe? Click here To Cross Border</p>

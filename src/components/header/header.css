@@ -12,10 +12,6 @@
     align-items: center;
 }
 
-.header__button-menu {
-    margin-right: 79px;
-}
-
 .img-back {
     width: 4px; 
     height: 8px;
@@ -28,6 +24,7 @@
     line-height: 20px;
     color: #1D2939;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .button-menu {
@@ -46,6 +43,7 @@
     font-size: 14px;
     line-height: 24px;
     color: #344054;
+    cursor: pointer;
 }
 
 .button-menu-delete {
@@ -69,10 +67,7 @@
 
 .header__button-menu {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-right: 30px;
 }
 
 .icon-edit {
@@ -81,7 +76,7 @@
 
 @media screen and (min-width: 900px) {
     .header__container {
-        margin-top: 40px;
+        margin-top: 20px;
     }
        
 }
